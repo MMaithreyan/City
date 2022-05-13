@@ -7,12 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>City</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1c7e477026.js" crossorigin="anonymous"></script>
+
 </head>
 
-<body>
-    <nav>
 
-        <div class="left">
+
+<body>
+
+<div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa-solid fa-bars"></i></button>
+        <div class="dropdown-content">
+
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        </div>
+      </div>
+
+
+
+      <div class="city_img">
+          <img src="/icon/City.png" alt="">
+      </div>
+
+      <div class="cart">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+</div>
+    <nav>
+           <div class="left">
             <img src="./icon/Facebook.png" alt="">
             <img src="./icon/Instagram.png" alt="">
             <img src="./icon/Twitter.png" alt="">
@@ -41,67 +66,44 @@
         <img src="./images/Hero.webp" alt="">
     </div>
 
-        
 
-        <div class="content">
 
-            <div class="list">
-                <p>Browse</p>
-                <div class="dropdown">
-                    <button class="dropbtn btn_1">Women <img src="./icon/plus.png" alt=""></button>
-                    <div class="dropdown-content">
-                        <a href="#">Tops</a>
-                        <a href="#">Bottoms</a>
-                        <a href="#">Dresses 3</a>
-                        <a href="#">Accessories 3</a>
-                    </div>
-                </div>
-    
-                <div class="dropdown">
-                    <button class="dropbtn btn_2">Men <img src="./icon/plus.png" alt=""> </button>
-                    <div class="dropdown-content">
-                        <a href="#">Tops</a>
-                        <a href="#">Bottoms</a>
-                        <a href="#">Dresses 3</a>
-                        <a href="#">Accessories 3</a>
-                    </div>
-                </div>
-    
-                <div class="dropdown">
-                    <button class="dropbtn btn_3">Accessories <img src="./icon/plus.png" alt=""> </button>
-                    <div class="dropdown-content">
-                        <a href="#">Tops</a>
-                        <a href="#">Bottoms</a>
-                        <a href="#">Dresses 3</a>
-                        <a href="#">Accessories 3</a>
-                    </div>
-                </div>
+    <div class="content">
+        <div class="list">
+            <p>Browse</p>
+            <button class="accordion">Women</button>
+            <div class="panel">
+                <ol>
+                    <li>Tops</li>
+                    <li>Bottoms</li>
+                    <li>Shirts</li>
+                    <li>Accessories</li>
+                </ol>
             </div>
 
-            <div class="container">          
-                  <div class="products">
-
-                <div class="card">
-                    <img src="./images/product_1.webp" alt="">
-                    <p>Women banbury tencel dress</p>
-                    <b>$128</b>
-                </div>
-
-
-                <div class="card">
-                    <img src="./images/product_2.webp" alt="">
-                    <p>Women banbury tencel dress</p>
-                    <b>$128</b>
-                </div>
-
-
-                <div class="card">
-                    <img src="./images/product_3.webp" alt="">
-                    <p>Women banbury tencel dress</p>
-                    <b>$128</b>
-                </div>
+            <button class="accordion">Men</button>
+            <div class="panel">
+                <ol>
+                    <li>Tops</li>
+                    <li>Bottoms</li>
+                    <li>Shirts</li>
+                    <li>Accessories</li>
+                </ol>
             </div>
 
+            <button class="accordion">Accrssories</button>
+            <div class="panel">
+                <ol>
+                    <li>Tops</li>
+                    <li>Bottoms</li>
+                    <li>Shirts</li>
+                    <li>Accessories</li>
+                </ol>
+            </div>
+        </div>
+
+
+        <div class="container">
             <div class="products">
 
                 <div class="card">
@@ -147,13 +149,102 @@
                     <b>$128</b>
                 </div>
             </div>
-        </div>
 
-        </div>
+            <div class="products">
 
-<div class="ddf">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias quis iure amet repudiandae minus assumenda, voluptatem, possimus asperiores dignissimos, aspernatur itaque doloremque. Doloribus pariatur eaque adipisci ex libero hic tempore?</p>
-</div>
+                <div class="card">
+                    <img src="./images/product_1.webp" alt="">
+                    <p>Women banbury tencel dress</p>
+                    <b>$128</b>
+                </div>
+
+
+                <div class="card">
+                    <img src="./images/product_2.webp" alt="">
+                    <p>Women banbury tencel dress</p>
+                    <b>$128</b>
+                </div>
+
+
+                <div class="card">
+                    <img src="./images/product_3.webp" alt="">
+                    <p>Women banbury tencel dress</p>
+                    <b>$128</b>
+                </div>
+            </div>
+
+            <div class="nxt_btn">
+                <p>Previous</p>
+                <p>Next</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="fotter">
+        <div class="fotter_container">
+            <div class="contact">
+                <p class="question">We love speaking to our customers, got a questions?</p>
+                <br>
+                <div class="calls">
+                    <div>
+                        <p>@shopifypartners</p>
+                        <br>
+                    </div>
+                    <div>
+                        <p>0-800-555-12234</p>
+                        <br>
+                    </div>
+                    <div>
+                        <p>hello@myshopemail.com</p>
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="grid">
+
+                <div class="one">
+                    <p class="menu">Menu</p>
+                    <p class="menu_list">Women</p>
+                    <p class="menu_list">Men</p>
+                    <p class="menu_list">Accessories</p>
+                    <p class="menu_list">About</p>
+
+                </div>
+                <div class="two">
+                    <p>About Us</p>
+                    <br>
+                    <h3>The Shopify Web Design and Development Blog provides design inspiration, development tips, and
+                        business insights for anyone working as a freelancer or agency in the web design space. Our blog
+                        gives you the resources and tools you need to push creative boundaries and challenge the status
+                        quo when approaching each and every web design project.
+                        <br>
+                        <br>
+                        Subscribe to our email newsletter for regular updates featuring new articles, free resources,
+                        and innovative examples of websites that are doing something right.
+                    </h3>
+                    <br>
+                    <br>
+                </div>
+
+                <div class="three">
+                    <img src="./icon/Facebook.png" alt="">
+                    <img src="icon/Instagram.png" alt="">
+                    <img src="./icon/Twitter.png" alt="">
+                </div>
+            </div>
+            <div class="shopify">
+                <div class="power">
+                    <br>
+                    <h3>Powered By Shopify</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>
