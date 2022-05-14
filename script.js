@@ -7,8 +7,12 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.display === "block") {
       panel.style.display = "none";
+      acc[i].classList.add("active");
+
     } else {
       panel.style.display = "block";
+      acc[i].classList.remove("active");
+
     }
   })
 }
