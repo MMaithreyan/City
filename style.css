@@ -75,13 +75,7 @@ nav .left img {
     object-fit: contain;
     padding-top: 20px;
 }
-.fa-solid, .fas {
-    font-family: "regular";
-    font-weight: 900;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-}
+
 
 .content {
     width: 100%;
@@ -123,10 +117,15 @@ nav .left img {
     padding: 18px;
     width: 100%;
     border: none;
-    text-align: left;
     outline: none;
     font-size: 15px;
     transition: 0.4s;
+
+    font-family: "regular";
+    font-weight: 900;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 
