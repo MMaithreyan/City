@@ -1,8 +1,3 @@
-function myFunction(icon) {
-  icon.classList.toggle("fa-xmark");
-}
-
-
 var acc = document.getElementsByClassName("accordion");
 var panel = document.getElementsByClassName('panel');
 
@@ -26,3 +21,18 @@ function setClass(els, className, fnName) {
 }
 
 
+//function myFunction(icon) {
+  //icon.classList.toggle("fa-xmark");
+//}
+
+const img = document.getElementById("plus");
+
+let toggle= true;
+
+img.addEventListener("click",function()
+{
+  toggle=!toggle;
+  if(toggle){
+    img.src-""
+  }
+})

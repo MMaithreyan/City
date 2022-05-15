@@ -444,6 +444,15 @@ padding-bottom: 40px;
     .list{
         width: 25%;
     }
+    .nxt_btn{
+        margin: auto;
+        width: 88%;
+    }
+}
+@media screen and (max-width:675px) {
+    .calls{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:760px) {
