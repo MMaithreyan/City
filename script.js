@@ -1,38 +1,14 @@
-var acc = document.getElementsByClassName("accordion");
-var panel = document.getElementsByClassName('panel');
+// Fetch all the details element.
+const details = document.querySelectorAll("details");
 
-for (var i = 0; i < acc.length; i++) {
-    acc[i].onclick = function() {
-        var setClasses = !this.classList.contains('active');
-        setClass(acc, 'active', 'remove');
-        setClass(panel, 'show', 'remove');
-
-        if (setClasses) {
-            this.classList.toggle("active");
-            this.nextElementSibling.classList.toggle("show");
-        }
-    }
-}
-
-function setClass(els, className, fnName) {
-    for (var i = 0; i < els.length; i++) {
-        els[i].classList[fnName](className);
-    }
-}
-
-
-//function myFunction(icon) {
-  //icon.classList.toggle("fa-xmark");
-//}
-
-const img = document.getElementById("plus");
-
-let toggle= true;
-
-img.addEventListener("click",function()
-{
-  toggle=!toggle;
-  if(toggle){
-    img.src-""
-  }
-})
+// Add the onclick listeners.
+details.forEach((targetDetail) => {
+  targetDetail.addEventListener("click", () => {
+    // Close all the details that are not targetDetail.
+    details.forEach((detail) => {
+      if (detail !== targetDetail) {
+        detail.removeAttribute("open");
+      }
+    });
+  });
+});
