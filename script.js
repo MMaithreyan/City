@@ -13,7 +13,6 @@ details.forEach((targetDetail) => {
   });
 });
 
-
 const img=document.getElementById("plus");
 const summary=document.getElementById("sum");
 summary.addEventListener("click",function(){

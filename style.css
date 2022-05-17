@@ -107,7 +107,8 @@ details {
 
 details summary {
     list-style: none;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 ol {
@@ -457,6 +458,9 @@ summary {
     .nxt_btn {
         margin: auto;
         width: 88%;
+    }
+    .list{
+        width: 80%;
     }
 }
 
