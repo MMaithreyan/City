@@ -96,7 +96,11 @@ nav {
     padding-top: 20px;
 }
 
-
+b{
+    color: black;
+    font-size: 13px;
+    font-weight: bolder;
+}
 .content {
     width: 100%;
     margin: auto;
@@ -124,12 +128,15 @@ details:after {
 }
 
 .active:after {
-    content: "\2212";
+    content: "\2715";
+    font-size: 10px;
     position: relative;
     bottom: 105px;
 
 }
-
+.tops{
+    padding-top: 20px;
+}
 details {
     border: 1px solid #cccccc;
     list-style: none;
@@ -276,10 +283,6 @@ summary {
     border-right: none;
 }
 
-.nxt_btn p {
-    padding: 10px;
-}
-
 /* ///////////////////////////////////////////////////////////////////////// */
 
 .fotter {
@@ -377,7 +380,7 @@ summary {
 }
 
 .menu_list {
-    padding: 5px;
+    padding: 5px 5px 5px 0;
     font-weight: 600;
     font-size: 12px;
     line-height: 14px;
@@ -425,8 +428,12 @@ summary {
 
 .cart i {
     font-size: x-large;
+    color: #606060;
 }
-
+.fa-bars:before, .fa-navicon:before {
+    content: "\f0c9";
+    color: #606060;
+}
 .dropbtn {
     font-size: x-large;
     background-color: white;
@@ -524,4 +531,30 @@ summary {
     }
 }
 
-@media screen and (max-width:760px) {}
+@media screen and (max-width:520px) {
+    .list {
+        width: 90%;
+        margin: auto;
+        float: none;
+        padding: 10px 10px 40px 10px;
+    }
+    .products{
+        padding: 0;
+    }
+    .contact p{
+        line-height: 30px;
+        padding: 0;
+    }
+    .two p{
+        padding-top: 30px;
+    }
+    .three img{
+        padding: 20px 20px 20px 0;
+    }
+    .two h3{
+        margin: 0;
+    }
+    .grid{
+        padding-bottom: 0;
+    }
+}
