@@ -125,19 +125,11 @@ summary:after {
     color: #777;
     font-weight: bold;
     float:right;
-    /* position: relative;
-    bottom: 10px; */
 }
 
 .active:after {
     content: "\2715";
     font-size: 10px;
-    /* position: relative;
-    bottom: 105px; */
-
-}
-.tops{
-    padding-top: 20px;
 }
 details {
     border: 1px solid #cccccc;
