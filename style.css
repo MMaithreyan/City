@@ -119,17 +119,21 @@ b{
     margin-top: 20px;
     padding: 10px;
 }
-
-summary:after {
-    content: '\002B';
+#icon:after{
+    content: '\271A';
     color: #777;
-    font-weight: bold;
     float:right;
+    font-size: 10px;
+    padding-right: 15px;
 }
 
-.active:after {
-    content: "\2715";
+/* .active:after {
+    content: '\2716' !important;
     font-size: 10px;
+} */
+
+details[open] summary::after{
+    transform: rotate(45deg);
 }
 details {
     border: 1px solid #cccccc;
@@ -142,7 +146,7 @@ details summary {
     list-style: none;
     font-weight: 500;
     font-size: 15px;
-    line-height: 17px;
+    line-height: 20px;
     color: #000000;
 }
 
@@ -261,7 +265,7 @@ summary {
 
 .nxt_btn {
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -311,6 +315,7 @@ summary {
     border-bottom: 1px solid #CCCCCC;
     height: fit-content;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .calls p {
@@ -367,7 +372,7 @@ summary {
 }
 
 .menu {
-    padding-top: 15px;
+    padding-top: 26px;
     padding-bottom: 15px;
     font-weight: 400;
     font-size: 18px;
@@ -377,9 +382,9 @@ summary {
 }
 
 .menu_list {
-    padding: 5px 5px 14px 0;
+    padding: 5px 5px 12px 0;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 14px;
     color: #000000;
 }
@@ -511,7 +516,9 @@ summary {
         margin: auto;
         width: 100%;
     }
-
+.prd1{
+    margin-top: 0%;
+}
     .nxt_btn {
         margin: auto;
         width: 88%;
@@ -537,7 +544,7 @@ summary {
         width: 90%;
         margin: auto;
         float: none;
-        padding: 10px 10px 40px 10px;
+        padding: 10px 10px 10px 10px;
     }
     .products{
         padding: 0;
