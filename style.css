@@ -223,7 +223,7 @@ summary {
 .products {
 
     display: flex;
-    padding-top: 90px;
+    padding-top: 50px;
     justify-content: center;
     flex-wrap: wrap;
     float: right;
