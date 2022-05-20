@@ -55,6 +55,7 @@ nav {
     content: "\f07a";
     font-size: 23px;
 }
+
 .left img {
     padding: 6px 0 0 16px;
 }
@@ -99,11 +100,12 @@ nav {
     padding-top: 20px;
 }
 
-b{
+b {
     color: black;
     font-size: 13px;
     font-weight: bolder;
 }
+
 .content {
     width: 100%;
     margin: auto;
@@ -119,10 +121,11 @@ b{
     margin-top: 20px;
     padding: 10px;
 }
-#icon:after{
+
+#icon:after {
     content: '\271A';
     color: #777;
-    float:right;
+    float: right;
     font-size: 10px;
     padding-right: 15px;
 }
@@ -132,9 +135,10 @@ b{
     font-size: 10px;
 } */
 
-details[open] summary::after{
+details[open] summary::after {
     transform: rotate(45deg);
 }
+
 details {
     border: 1px solid #cccccc;
     list-style: none !important;
@@ -225,7 +229,8 @@ summary {
     flex-wrap: wrap;
     float: right;
 }
-.prd1{
+
+.prd1 {
     margin-top: 30px;
 }
 
@@ -432,10 +437,12 @@ summary {
     font-size: x-large;
     color: #606060;
 }
+
 .fa-bars:before, .fa-navicon:before {
     content: "\f0c9";
     color: #606060;
 }
+
 .dropbtn {
     font-size: x-large;
     background-color: white;
@@ -485,7 +492,8 @@ summary {
         margin-top: 0;
         justify-content: flex-start;
     }
-    .two h3{
+
+    .two h3 {
         margin-left: 0;
     }
 }
@@ -516,9 +524,11 @@ summary {
         margin: auto;
         width: 100%;
     }
-.prd1{
-    margin-top: 0%;
-}
+
+    .prd1 {
+        margin-top: 0%;
+    }
+
     .nxt_btn {
         margin: auto;
         width: 88%;
@@ -533,8 +543,6 @@ summary {
     }
 }
 
-
-
 @media screen and (max-width:520px) {
     .list {
         width: 90%;
@@ -542,31 +550,38 @@ summary {
         float: none;
         padding: 10px 10px 10px 10px;
     }
-    .products{
+
+    .products {
         padding: 0;
     }
-   
-    .question p{
+
+    .question p {
         line-height: 30px;
     }
-    .two p{
+
+    .two p {
         padding-top: 30px;
     }
-    .three img{
+
+    .three img {
         padding: 0px 20px 30px 0;
     }
-    .two h3{
+
+    .two h3 {
         margin: 0;
     }
-    .grid{
+
+    .grid {
         padding-bottom: 0;
     }
-    .card img{
+
+    .card img {
         padding: 40px 5px 5px 5px;
+    }
 }
-}
+
 @media screen and (max-width:400px) {
-    .calls{
+    .calls {
         width: 93%;
     }
 }
