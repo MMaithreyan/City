@@ -165,7 +165,7 @@ details a {
     letter-spacing: 0.216216px;
     color: #565656;
     text-decoration: none;
-    padding: 5px;
+    padding: 5px 5px 10px 5px;
 }
 
 .list p {
