@@ -615,7 +615,7 @@ summary {
 
 @media screen and (max-width:400px) {
     .calls {
-        width: 100%;
+        width: 80%;
         justify-content: space-around;
         padding-bottom: 15px;
     }
