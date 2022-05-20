@@ -226,7 +226,7 @@ summary {
     float: right;
 }
 .prd1{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .card {
@@ -268,7 +268,7 @@ summary {
     margin-bottom: 8%;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 92%;
     font-family: 'GFS Didot', serif;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -276,7 +276,7 @@ summary {
     line-height: 14px;
     letter-spacing: 0.216216px;
     color: #000000;
-    border: 3px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
     padding: 15px;
     border-left: none;
     border-right: none;
@@ -372,7 +372,7 @@ summary {
 }
 
 .menu {
-    padding-top: 26px;
+    padding-top: 15px;
     padding-bottom: 15px;
     font-weight: 400;
     font-size: 18px;
