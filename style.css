@@ -40,14 +40,14 @@ nav {
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #CCCCCC;
     ;
 }
 
 .navbar {
     display: none;
     justify-content: space-between;
-    padding: 10px 10px 0 10px;
+    padding: 0px 15px 0 10px;
     align-items: center;
 }
 
@@ -67,7 +67,9 @@ nav {
 .city {
     padding-right: 30px;
 }
-
+.city_img img{
+    padding-top: 3px;
+}
 .right img {
     padding-right: 25px;
 }
@@ -121,6 +123,9 @@ b {
     margin-top: 20px;
     padding: 10px;
 }
+.acc{
+    padding-bottom: 25px;
+}
 
 #icon:after {
     content: '\271A';
@@ -150,7 +155,7 @@ details summary {
     list-style: none;
     font-weight: 500;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 40px;
     color: #000000;
 }
 
@@ -185,7 +190,7 @@ summary {
     font-family: 'GFS Didot', serif;
     font-family: 'Inter', sans-serif;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 .accordion {
@@ -240,6 +245,8 @@ summary {
 
 .card img {
     padding: 5px;
+    width: 250px;
+    height: 375px;
 }
 
 .card p {
@@ -329,11 +336,11 @@ summary {
     font-family: 'GFS Didot', serif;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 16px;
     letter-spacing: 0.2px;
     margin: 0 10px 0 10px;
-    padding: 5px 0 5px 0px;
+    padding: 1px 0 5px 0px;
 }
 
 .grid {
@@ -416,7 +423,7 @@ summary {
     font-family: 'Inter', sans-serif;
     font-size: 13px;
     line-height: 14px;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.23px;
     border-top: 1px solid #CCCCCC;
 }
@@ -545,12 +552,14 @@ summary {
 
 @media screen and (max-width:520px) {
     .list {
-        width: 90%;
+        width: 85%;
         margin: auto;
         float: none;
-        padding: 10px 20px 10px 15px;
+        padding: 10px 20px 10px 30px;
     }
-
+.question p{
+    font-size: 19px;
+}
     .products {
         padding: 0;
     }
@@ -560,7 +569,7 @@ summary {
     }
 
     .two p {
-        padding-top: 30px;
+        padding-top: 40px;
     }
 
     .three img {
@@ -578,10 +587,25 @@ summary {
     .card img {
         padding: 40px 5px 5px 5px;
     }
+    .sum2,.sum3{
+        display: none;
+    }
+    #icon:after{
+        display: none;
+    }
 }
 
 @media screen and (max-width:400px) {
     .calls {
-        width: 93%;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width:376px) {
+    .fotter_container{
+        width: 100%;
+    }
+    .menu_list {
+        padding: 5px 5px 18px 0;
     }
 }
