@@ -67,13 +67,16 @@ nav {
 .city {
     padding-right: 30px;
 }
-.city_img img{
+
+.city_img img {
     padding-top: 3px;
 }
+
 .right img {
     padding-right: 25px;
 }
-.menu_icon{
+
+.menu_icon {
     width: 28px;
     height: 16px;
 }
@@ -129,7 +132,8 @@ b {
     margin-top: 20px;
     padding: 10px;
 }
-.acc{
+
+.acc {
     padding-bottom: 25px;
 }
 
@@ -282,10 +286,10 @@ summary {
 }
 
 .nxt_btn {
-margin: 5% 0 8% 5%;
+    margin: 5% 0 8% 5%;
     display: flex;
     justify-content: space-between;
-    width:87%;
+    width: 87%;
     font-family: 'GFS Didot', serif;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -504,7 +508,8 @@ margin: 5% 0 8% 5%;
         margin-top: 0;
         justify-content: flex-start;
     }
-    .three img{
+
+    .three img {
         padding: 0 20px 30px 0px;
     }
 
@@ -539,6 +544,7 @@ margin: 5% 0 8% 5%;
         margin: auto;
         width: 100%;
     }
+
     .prd1 {
         margin-top: 0%;
     }
@@ -564,9 +570,11 @@ margin: 5% 0 8% 5%;
         float: none;
         padding: 10px 20px 10px 30px;
     }
-.question p{
-    font-size: 19px;
-}
+
+    .question p {
+        font-size: 19px;
+    }
+
     .products {
         padding: 0;
     }
@@ -594,10 +602,12 @@ margin: 5% 0 8% 5%;
     .card img {
         padding: 40px 5px 5px 5px;
     }
-    .sum2,.sum3{
+
+    .sum2, .sum3 {
         display: none;
     }
-    #icon:after{
+
+    #icon:after {
         display: none;
     }
 }
@@ -609,10 +619,12 @@ margin: 5% 0 8% 5%;
         padding-bottom: 15px;
     }
 }
+
 @media screen and (max-width:376px) {
-    .fotter_container{
+    .fotter_container {
         width: 100%;
     }
+
     .menu_list {
         padding: 5px 5px 18px 0;
     }
