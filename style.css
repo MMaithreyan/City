@@ -409,7 +409,7 @@ summary {
 
 .three {
     width: 80%;
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
     font-size: xx-large;
     letter-spacing: 15px;
