@@ -533,11 +533,7 @@ summary {
     }
 }
 
-@media screen and (max-width:675px) {
-    .calls {
-        width: 80%;
-    }
-}
+
 
 @media screen and (max-width:520px) {
     .list {
@@ -569,6 +565,8 @@ summary {
         padding: 40px 5px 5px 5px;
 }
 }
-@media screen and (max-width:780px) {
-    
+@media screen and (max-width:400px) {
+    .calls{
+        width: 93%;
+    }
 }
