@@ -73,9 +73,15 @@ nav {
 .right img {
     padding-right: 25px;
 }
+.menu_icon{
+    width: 28px;
+    height: 16px;
+}
 
 .city img {
+    width: 70px;
     padding-top: 8px;
+    height: 46px
 }
 
 .nav_menu {
